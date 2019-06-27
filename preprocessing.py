@@ -37,9 +37,9 @@ def load_data(data_path):
 def format_labels(labels):
 
     __mapping__ = {
-        'A': 2, # AF rhythm
-        'O': 2, # Other rhythm
-        '~': 2, # Noise rhythm
+        'A': 1, # AF rhythm
+        'O': 1, # Other rhythm
+        '~': 1, # Noise rhythm
         'N': 0 # Normal rhythm
     }
 
